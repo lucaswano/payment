@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dialog_success">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_group_4"/>
+    <LinearLayout
+        android:layout_above="@id/line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_success"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/space_ultra"/>
+
+        <com.project.ui.customcomponent.UPSTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transaction_success"
+            app:font_values="Nunito-ExtraBold.ttf"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/space_ultra"
+            android:padding="@dimen/space_20"
+            android:textSize="@dimen/large_text_size"/>
+
+        <com.project.ui.customcomponent.UPSTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fake_code"
+            app:font_values="arial.ttf"
+            android:lineSpacingExtra="4dp"
+            android:gravity="center"/>
+
+        <com.project.ui.customcomponent.UPSTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/copy_right_title"
+            app:font_values="arial.ttf"
+            android:gravity="center"
+            android:padding="@dimen/space_20"
+            />
+    </LinearLayout>
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_above="@id/btnOk"
+        android:background="@color/normal_text_color"/>
+    <com.project.ui.customcomponent.UPSTextView
+        android:id="@+id/btnOk"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:text="@string/ok_title"
+        android:textSize="@dimen/ultra_text_size"
+        android:textColor="#2D8BE3"
+        android:gravity="center"/>
+</RelativeLayout>

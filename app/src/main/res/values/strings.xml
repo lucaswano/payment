@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Payment</string>
+    <string name="navigation_drawer_open">navigation drawer open</string>
+    <string name="navigation_drawer_close">navigation drawer close</string>
+
+    <string name="login_title">Log in</string>
+    <string name="sign_up_title">Sign up</string>
+    <string name="sign_in_title">Sign In</string>
+    <string name="logout">Logout</string>
+    <string name="email_title">Email</string>
+    <string name="create_password_title">Create password</string>
+    <string name="password_title">Password</string>
+    <string name="legal_first_name">Legal First Name</string>
+    <string name="legal_last_name">Legal Last Name</string>
+    <string name="forgot_pass_title">I forgot password</string>
+    <string name="create_a_personal_acc">Create a Personal Account</string>
+    <string name="to_user_title">to user</string>
+    <string name="payment_title">Payment</string>
+    <string name="total_amount">Total amount:</string>
+    <string name="sub_total">Subtotal:</string>
+    <string name="fee">FEE: </string>
+    <string name="default_payment_method">Default payment method</string>
+    <string name="available_balance">Available balance</string>
+    <string name="change">Change</string>
+    <string name="payment_amount">$ %d</string>
+    <string name="pay_title">Pay $ %d</string>
+    <string name="transaction_success">TRANSACTION SUCCESSFUL</string>
+    <string name="fake_code">Transaction code:  \n123456FGHE9392991</string>
+    <string name="ok_title">OK</string>
+    <string name="notification">Notifications</string>
+    <string name="personal_infor">Personal Information</string>
+    <string name="security_settings">Security Settings</string>
+    <string name="help_support">Help &amp; Support</string>
+    <string name="term_of_use">Terms of Use</string>
+    <string name="copy_right_title">We are sending a copy of all important order information to your email address.</string>
+    <string name="rule_password">Password must be at least 8 characters.  \nMust include: (1 uppercase, 1 digit, 1 lowercase)</string>
+    <string name="policy">I have read and agree to Passport.io User Agreement and Provacy Policy.\nI allow FasterPay  to use my Passport.io data</string>
+</resources>

@@ -1,0 +1,40 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app_padding">30dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+
+    <dimen name="smaller_text_size">10sp</dimen>
+    <dimen name="small_text_size">12sp</dimen>
+    <dimen name="normal_text_size">14sp</dimen>
+    <dimen name="large_text_size">16sp</dimen>
+    <dimen name="big_text_size">18sp</dimen>
+    <dimen name="ultra_text_size">20sp</dimen>
+    <dimen name="special_text_size">24sp</dimen>
+
+    <dimen name="common_divider_height">1dp</dimen>
+    <dimen name="space_ultra">24dp</dimen>
+    <dimen name="space_20">20dp</dimen>
+    <dimen name="space_largest">12dp</dimen>
+    <dimen name="space_larger">10dp</dimen>
+    <dimen name="space_large">8dp</dimen>
+    <dimen name="space_normal">6dp</dimen>
+    <dimen name="space_small">4dp</dimen>
+    <dimen name="space_smaller">2dp</dimen>
+    <dimen name="border">1dp</dimen>
+
+    <dimen name="button_small">32dp</dimen>
+    <dimen name="button_normal">36dp</dimen>
+    <dimen name="button_large">40dp</dimen>
+    <dimen name="button_larger">48dp</dimen>
+    <dimen name="max_width_item_chat">250dp</dimen>
+
+    <dimen name="width_login_edt">350dp</dimen>
+    <dimen name="height_login_edt">50dp</dimen>
+    <dimen name="space_payment">50dp</dimen>
+</resources>

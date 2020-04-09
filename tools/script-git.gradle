@@ -1,0 +1,31 @@
+import java.text.SimpleDateFormat
+
+ext.gitRevision = {
+    try {
+        return "git rev-parse HEAD".execute().text.trim()
+    }
+    catch (Exception ex) {
+        return "N/A"
+    }
+}
+
+ext.gitBranch = {
+    try {
+        return "git rev-parse --symbolic-full-name HEAD".execute().text.trim()
+    }
+    catch (Exception ex) {
+        return "N/A"
+    }
+}
+
+ext.buildTimeStamp = {
+    try {
+        def df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss Z", Locale.getDefault())
+        //you can change it
+        df.setTimeZone(TimeZone.getTimeZone("Asia/Ho_Chi_Minh"))
+        return df.format(new Date())
+    }
+    catch (Exception ex) {
+        return "N/A"
+    }
+}
